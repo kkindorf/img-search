@@ -47,7 +47,7 @@ app.get('/imagesearch/:term', function(req, res, next) {
       res.status(200).json(arr)
     }
     else {
-      res.status(500).json({message: 'your request did not return any results. Please try again'})
+      res.status(500).json({message: 'your request did not return any results. Please try again.'})
     }
   });
 
